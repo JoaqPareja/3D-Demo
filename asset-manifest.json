@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/JoaqPareja/3D-Demo/static/css/main.44432dd3.css",
+    "main.js": "/JoaqPareja/3D-Demo/static/js/main.5b404ccf.js",
+    "index.html": "/JoaqPareja/3D-Demo/index.html",
+    "main.44432dd3.css.map": "/JoaqPareja/3D-Demo/static/css/main.44432dd3.css.map",
+    "main.5b404ccf.js.map": "/JoaqPareja/3D-Demo/static/js/main.5b404ccf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44432dd3.css",
+    "static/js/main.5b404ccf.js"
+  ]
+}
