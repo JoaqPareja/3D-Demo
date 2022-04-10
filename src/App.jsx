@@ -10,22 +10,6 @@ import { TextureLoader } from 'three'
 // extend({ OrbitControls })
 
 
-// function Controls() {
-//   const controls = useRef()
-//   const { camera, gl } = useThree()
-//   useFrame(() => controls.current.update())
-//   return <orbitControls ref={controls} args={[camera, gl.domElement]} enableDamping dampingFactor={0.05} rotateSpeed={0.6} />
-// }
-
-
-// function Controls(){
-//   const controls = useRef();
-//   useFrame(() => controls.current.update())
-//   return(
-//   <OrbitControls ref={controls} target={[0, 0, 0]} saveState={true} minDistance={-500}
-//   maxDistance={150}/>
-//   )
-// }
 
 function Torus(props) {
   const mesh = useRef()
@@ -94,39 +78,6 @@ function Menu(){
     
   }
 
-  // const home =()=>{
-  //   // Debo de convertir la funcion a react three fiber
-  // async function wait(){
-  //   await new Promise (resolve => setTimeout(resolve, 1500));
-  //   return;
-
-  //   }
-
-  //   wait().then(setTimeout(() => {
-  //     clearInterval(inter) 
-  //     bg.style.display="none";
-  //     bg2.style.display ="block";
-
-  //     menu1.style.display ="none";
-  //     menu2.style.display ="block";
-  //   }, 3000));
-  // }
-
-
-// function Menu(){
-//   return (
-   
-  
-// <h1>Im an h1</h1>
-//   )
-// }
-// const Wheels = (e)=>{
-//     e = e * 1000
-//    return (
-//   <Stars count={e}/>
-//    )
-// }
-
 
 function App() {
  const [setCamera] = useState({fov: 60, position: [0, 0, 45] })
@@ -163,12 +114,7 @@ ReactDOM.render(
   </Canvas>
   <Menu/>
   </>,
-//   <>
-//   <Canvas  hidden={true}>
-// <img src="./my-app/src/Diseño sin título (2).png" alt="" > </img>
-//   </Canvas>
-//   </>
-//     ,
+
   document.getElementById('root'),
 )
 }
