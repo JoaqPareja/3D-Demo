@@ -32,15 +32,7 @@ function Torus(props) {
 
 function Menu(){
  
-//  const [clicks] = useEffect(() =>{
-  // //   const onClick = e =>{
-  //     e()
-  //   };
-  //   window.addEventListener('Click', onClick);
-  //   return () =>{
-  //     window.removeEventListener('Click', onClick);
-  //   }
-  // }, []);
+
     return(
 
     <main>
@@ -51,8 +43,7 @@ function Menu(){
            
               <li className="nav__items "  >
                 <p id="home"  >Home</p>
-                {/* </a> */}
-                {/* <!-- <a href="" id="butoonId">Home</a> --> */}
+         
               </li>
               
               <li className="nav__items ">
