@@ -54,7 +54,8 @@ function Menu(){
                
                 <p id="reset"  > Reset </p>
                 <li className="nav__items "  >
-              <a href='https://joaqpareja.github.io/ReactPages/' ><p>Responsive Portfolio</p></a>
+                  <p>Responsive Portfolio</p></a>
+{/*               <a href='https://joaqpareja.github.io/ReactPages/' ><p>Responsive Portfolio</p></a> */}
               </li>
               </li>
             </ul>
